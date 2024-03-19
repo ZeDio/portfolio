@@ -1,0 +1,124 @@
+.fundo-bolha1{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(117,117,117,1);
+    border-radius: 100%;
+    position: fixed;
+    left: 100px;
+    top: 200px;
+    animation: animação-fundo1 4s ease-in-out infinite;
+}
+.fundo-bolha2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(117,117,117,1);
+    border-radius: 100%;
+    position: fixed;
+    right: 100px;
+    bottom: 200px;
+    animation: animação-fundo2 6s ease-in-out infinite;
+}
+@keyframes animação-fundo2 {
+    0%{
+        filter: blur(160px);
+    }
+    50%{
+        filter: blur(80px);
+        transform: translateX(10px);
+        transform: translateY(-10px);
+        bottom: 210px;
+    }
+    100%{
+        filter: blur(160px);
+        transform: translateX(-10px);
+        transform: translateY(10px);
+    }
+}
+@keyframes animação-fundo1 {
+    0%{
+        filter: blur(140px);
+    }
+    50%{
+        filter: blur(120px);
+        transform: translateX(10px);
+        transform: translateY(-10px);
+    }
+    100%{
+        filter: blur(140px);
+        transform: translateX(-10px);
+        transform: translateY(10px);
+    }
+}
+
+.Mi, .Mi2{
+    visibility: hidden;
+}
+
+.wave{
+    position: absolute;
+    top: -90px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../imgs/Footer/wave.png);
+    background-size: 1000px 100px;
+    filter: blur(4px);
+}
+.wave.wave1{
+    animation: wave 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0s;
+}
+.wave.wave2{
+    animation: wave2 15s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+}
+.wave.wave3{
+    animation: wave 30s linear infinite;
+    z-index: 998;
+    opacity: 0.2;
+    animation-delay: -2s;
+}
+.wave.wave4{
+    animation: wave 15s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+}
+@keyframes wave {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes wave2{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+
+.header{
+    width: 350px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    border: 3px solid white;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 20px;
+}
+
+.header-projetos{
+    width: 100px;
+}
