@@ -123,7 +123,7 @@ header button:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
+    max-width: 90%;
     margin-top: 30px;
 }
 .skill{
@@ -166,8 +166,80 @@ header button:hover{
     transform: translate(-50%, 40px);
 }
 .skill:hover img{
-    border-radius: 30%;
-    
+    background-color: white;
+    opacity: 0.5;
+}
+
+.section-4{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-top: 30px;
+}
+.projeto {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+    margin: 30px;
+}
+.projeto img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: block;
+}
+.projeto .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--shadowCali);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border-radius: 10px;
+    color: #19191B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+    text-align: center;
+}
+.projeto:hover .info {
+    opacity: 1;
+    visibility: visible;
+}
+.section-4 button {
+    background-color: #19191B;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.section-4 button:hover {
+    background-color: transparent;
+    border: 1px solid #19191B;
+    color: #19191B;
 }
 
 /* footer */
