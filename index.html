@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio - José Diogo</title>
-    <link rel="shortcut icon" type="imagex/png" href="/imgs/logo JD.png">
+    <title>Portfolio - José Diogo</title>
+    <link rel="shortcut icon" type="imagex/png" href="/imgs/logo/logo JD black.png">
     <link rel="stylesheet" href="/style/reset.css">
     <link rel="stylesheet" href="/style/index.css">
     <link rel="stylesheet" href="/style/configGeral.css">
@@ -12,13 +12,13 @@
 <body>
     <header>
         <div class="logo">
-            <img src="/imgs/logo JD.png" alt="Simbolo">
+            <img src="/imgs/logo/logo JD.png" alt="Simbolo">
         </div>
 
         <nav>
-            <a href="#">Home</a>
+            <a href="#inicio">Inicio</a>
             <a href="#">Projetos</a>
-            <a href="#">Sobre</a>
+            <a href="#sobre">Sobre</a>
         </nav>
 
         <a href="#">
@@ -26,7 +26,7 @@
         </a>
     </header>
 
-    <main>
+    <main id="inicio">
         <section class="section-1">
             <div class="blur-fundo-1"></div>
             <div class="text">
@@ -41,9 +41,70 @@
                 <div class="blur-fundo-2"></div>
             </div>
 
-            <img src="/imgs/eu.png" alt="Foto minha">
+            <img src="/imgs/main/eu.png" alt="Foto minha">
         </section>
         
+        <section class="section-2" id="sobre">
+            <h2>Sobre</h2>
+            <div class="blur-fundo-1"></div>
+
+            <div class="texts">
+                <p>Minha jornada com a tecnologia começou em 2019, quando vi um amigo desenvolvendo um site. Aquilo despertou minha curiosidade, e logo comecei a me interessar cada vez mais pela área de design e front-end. Durante o ensino médio, tive a oportunidade de estudar na FIAP School, onde consegui construir uma base sólida e me aprofundar no universo da tecnologia.</p>
+                <p>Hoje, meu foco principal é o front-end, área pela qual sou realmente apaixonado. Ainda assim, venho explorando o back-end aos poucos, percebendo como ele amplia minhas possibilidades na criação de sistemas e ferramentas úteis para resolver problemas reais.</p>
+                <p>No meu TCC do ensino médio, desenvolvemos a CALIMIND — uma experiência incrível onde pude colocar minhas habilidades de front-end em prática, além de contribuir com o básico no back-end. Porém, o maior desafio (e também o mais enriquecedor) foi liderar a equipe, coordenando o projeto e garantindo que tudo seguisse conforme o planejado.</p>
+            </div>
+            <div class="blur-fundo-2"></div>
+        </section>
+
+        <section class="section-3">
+            <h2>Skills</h2>
+            <div class="blur-fundo-1"></div>
+            <div class="skills">
+                <div class="skill">
+                    <img src="/imgs/main/skills/front_end.png" alt="Front End">
+                    <div class="text_skill">
+                        <h3>Front End</h3>
+                        <p>Faço interfaces webs utilizando HTML, CSS, REACT com o foco em criação de layouts responsivos e otimizados</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="/imgs/main/skills/back_end.png" alt="Back End">
+                    <div class="text_skill">
+                        <h3>Back End</h3>
+                        <p>Desenvolvo sistemas e APIs usando JS, PYTHON e JAVA com meu foco em estruturação logica e eficiencia em soluções robustas</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="/imgs/main/skills/banco_de_dados.png" alt="Banco de Dados">
+                    <div class="text_skill">
+                        <h3>Banco de Dados</h3>
+                        <p>Tenho experiência na modelagem e gerenciamento de dados com MySQL, MongoDB e Firebase, realizando a criação de consultas otimizadas</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="/imgs/main/skills/ux_ui.png" alt="UX e UI">
+                    <div class="text_skill">
+                        <h3>UX e UI</h3>
+                        <p>Crio wireframes e protótipos no Figma, conduzindo testes com usuários para validar a usabilidade e aprimorar a experiência na ferramenta</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="/imgs/main/skills/desing_visual.png" alt="Desing Visual">
+                    <div class="text_skill">
+                        <h3>Desing Visual</h3>
+                        <p>Desenvolvo identidades visuais para marcas e projetos, aliando estética e funcionalidade na criação e construção de sites</p>
+                    </div>
+                </div>
+                <div class="skill">
+                    <img src="/imgs/main/skills/gerenciamento_de_projetos.png" alt="Gereciamento de Projetos">
+                    <div class="text_skill">
+                        <h3>Gereciamento de Projetos</h3>
+                        <p>Já fui lider de alguns projetos como a CALIMIND, liderando equipes e coordenando cronogramas, com foco no planejamento de escopo, prazos e entregas</p>
+                    </div>
+                </div>
+                <div class="blur-fundo-2"></div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -53,10 +114,10 @@
         <div class="wave wave4"></div>
         
         <div>
-            <img src="/imgs/logo JD black.png" alt="Simbolo">
+            <img src="/imgs/logo/logo JD black.png" alt="Simbolo">
         </div>
 
-        <h3>©2025 José Diogo, Direitos Reservados</h3>
+        <h4>©2025 José Diogo, Direitos Reservados</h4>
     </footer>
 
 <script src="/script/script.js"></script>
