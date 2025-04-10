@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+
+    .section-1{
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        width: 300px;
+    }
+    .text h1{
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .text h1 span{
+        font-size: 2.4rem;
+    }
+    .text p{
+        width: 300px;
+    }
+    .section-1 img{
+        width: 300px;
+    }
+
+    .section-2 p{
+        max-width: 290px;
+        margin: 10px;
+    }
+  }
