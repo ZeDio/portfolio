@@ -246,6 +246,134 @@ header button:hover{
     color: #19191B;
 }
 
+.section-5{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.section-5 img{
+    width: 300px;
+}
+form{
+    max-width: 650px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form h2{
+    margin-bottom: 15px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+.input{
+    background-color: #19191B;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+    transition: 0.5s ease-in-out;
+}
+.input:hover{
+    background-color: white;
+    color: #19191B;
+    transition: 0.5s ease-in-out;
+}
+.input:focus{
+    outline: none;
+    background-color: white;
+    color: #19191B;
+    transition: 0.5s ease-in-out;
+}
+.button_form{
+    border: 1px solid white;
+    color: white;
+    background-color: #19191B;
+    border-radius: 5px;
+    padding: 5px;
+    width: 97%;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+.button_form:hover{
+    background-color: white;
+    color: #19191B;
+    transition: 0.5s ease-in-out;
+}
+
+.section-6{
+    padding: 30px;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    position: relative;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-top: 30px;
+}
+.rede{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 40px;
+}
+.rede img{
+    width: 90px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+}
+.text_rede{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.4s ease-in-out;
+    width: 150px;
+    padding: 10px;
+    border: 1px solid white;
+    background: var(--shadowCali);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%, 45px);
+    text-align: center;
+    z-index: 1;
+}
+.rede:hover .text_rede{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 40px);
+}
+.rede:hover img{
+    background-color: white;
+    opacity: 0.5;
+}
+
 /* footer */
 footer{
     margin-top: 50px;

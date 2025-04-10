@@ -1,8 +1,15 @@
 @media (max-width: 768px) {
+    body, html{
+        display: flex;
+        flex-direction: column;
+    }
     header{
         width: 100%;
     }
-    nav{
+    nav a{
+        margin: 0rem 1rem;
+    }
+    header button{
         display: none;
     }
 
@@ -31,5 +38,13 @@
     .section-2 p{
         max-width: 290px;
         margin: 10px;
+    }
+
+    footer div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .wave{
+        top: -110px;
     }
   }
