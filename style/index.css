@@ -91,6 +91,9 @@ header button:hover{
     border: 1px solid white;
     color: white;
 }
+.section-1 img{
+    width: 400px;
+}
 
 .section-2{
     padding: 30px;
@@ -104,7 +107,7 @@ header button:hover{
 .texts{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: start;
     justify-content: space-evenly;
     margin-top: 30px;
 }
