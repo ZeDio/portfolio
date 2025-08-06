@@ -1,4 +1,4 @@
-/* geral da pagina */
+ /* geral da pagina */
 body, html{
     width: 100%;
     height: 100%;
@@ -15,7 +15,7 @@ header{
     background: var(--shadowCali);
     backdrop-filter: blur(4.9px);
     -webkit-backdrop-filter: blur(4.9px);
-    position: sticky;
+    position: fixed;
     left: 0px;
     top: 0px;
     width: 100%;
@@ -51,6 +51,7 @@ header button:hover{
 /* main */
 .section-1{
     padding: 30px;
+    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -245,7 +246,7 @@ header button:hover{
 }
 .section-4 button:hover {
     background-color: transparent;
-    border: 1px solid #19191B;
+    border: 2px solid #19191B;
     color: #19191B;
 }
 
