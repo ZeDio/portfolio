@@ -25,3 +25,12 @@ const element = document.getElementById("typing");
         }
       
         typeLoop();
+
+document.getElementById('tema').addEventListener('click', function() {
+    var img = document.getElementById('imagemTema');
+    if (img.src.includes('Sol.png')) {
+        img.src = './imgs/Tema/Lua.png';
+    } else {
+        img.src = './imgs/Tema/Sol.png';
+    }
+});
