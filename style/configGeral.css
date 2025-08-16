@@ -1,11 +1,7 @@
-.logo img{
-    width: 100px;
-    height: 80px;
-}
-.logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+:root{
+  --preto: #19191B;
+  --cinza: rgba(255, 255, 255, 0.651);
+  --branco: white;
 }
 
 
@@ -38,23 +34,4 @@ p{
     font-size: 0.9rem;
     line-height: 25px;
     text-align: start;
-}
-
-.blur-fundo-1{
-    width: 60px;
-    height: 60px;
-    background-color: aliceblue;
-    position: absolute;
-    filter: blur(80px);
-    left: 100px;
-    top: 100px;
-}
-.blur-fundo-2{
-    width: 50px;
-    height: 50px;
-    background-color: aliceblue;
-    position: absolute;
-    filter: blur(80px);
-    right: 100px;
-    bottom: 100px;
 }
