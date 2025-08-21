@@ -1,10 +1,3 @@
-:root{
-  --preto: #19191B;
-  --cinza: rgba(255, 255, 255, 0.651);
-  --branco: white;
-}
-
-
 button{
     width: 110px;
     height: 40px;
