@@ -31,7 +31,7 @@ function Contato() {
 
   return (
     <>
-    <section className="section-5 hidden" id="contato">
+    <section className="section-6 hidden" id="contato">
         <img src={eu_denovo} alt="Minha pessoa"/>
         
         <form ref={form} onSubmit={sendEmail}>
@@ -75,7 +75,7 @@ function Contato() {
         <div className="blur-fundo-1"></div>
       </section>
         
-        <section className="section-6" id="redes">
+        <section className="section-7" id="redes">
             <h2>Redes Sociais</h2>
             <div className="redes">
                 <a href="https://www.instagram.com/ze.dio?igsh=a25tamNxNjhsanl0" className="rede">

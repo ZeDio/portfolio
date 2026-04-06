@@ -6,6 +6,17 @@ import banco_de_dados from '../../assets/main/skills/banco_de_dados.png'
 import ux_ui from '../../assets/main/skills/ux_ui.png'
 import desing_visual from '../../assets/main/skills/desing_visual.png'
 import gerenciamento_de_Projetos from '../../assets/main/skills/gerenciamento_de_projetos.png'
+import java from '../../assets/main/linguagens/java.png'
+import js from '../../assets/main/linguagens/js.png'
+import python from '../../assets/main/linguagens/python.png'
+import csharp from '../../assets/main/linguagens/csharp.png'
+import cmaismais from '../../assets/main/linguagens/cmaismais.png'
+import html from '../../assets/main/linguagens/html.png'
+import css from '../../assets/main/linguagens/css.png'
+import react from '../../assets/main/linguagens/react.png'
+import mysql from '../../assets/main/linguagens/mysql.png'
+import oraclesql from '../../assets/main/linguagens/oracleSQL.png'
+import firebase from '../../assets/main/linguagens/firebase.png'
 
 function Home() {
   const texts = [" José Diogo", " JD"]
@@ -64,6 +75,9 @@ function Home() {
 
           <a href="#skills">
             <button>Outras Habilidades</button>
+          </a>
+          <a className="contato" href="/contato">
+            <button>Entre em contato</button>
           </a>
         </div>
 
@@ -128,6 +142,97 @@ function Home() {
                 </div>
                 <div className="blur-fundo-1"></div>
             </div>
+        </section>
+
+        <section className="section-4" id="linguagens">
+          <h2>Tecnologias e Linguagens Utilizadas</h2>
+
+          <h3 className="titulo_categoria">Linguagens</h3>
+          <div className="linguagens hidden">
+            <div className="linguagem hidden">
+              <img src={java} alt="Java" />
+              <div className="text_linguagem">
+                <h3>Java</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={js} alt="JavaScript" />
+              <div className="text_linguagem">
+                <h3>JavaScript</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={python} alt="Python" />
+              <div className="text_linguagem">
+                <h3>Python</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={csharp} alt="C#" />
+              <div className="text_linguagem">
+                <h3>C#</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={cmaismais} alt="C++" />
+              <div className="text_linguagem">
+                <h3>C++</h3>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="titulo_categoria">Front-end</h3>
+          <div className="linguagens hidden">
+            <div className="linguagem hidden">
+              <img src={html} alt="HTML" />
+              <div className="text_linguagem">
+                <h3>HTML</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={css} alt="CSS" />
+              <div className="text_linguagem">
+                <h3>CSS</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={react} alt="react" />
+              <div className="text_linguagem">
+                <h3>React</h3>
+              </div>
+            </div>
+          </div>
+
+          <h3 className="titulo_categoria"> Banco de Dados</h3>
+          <div className="linguagens hidden">
+            <div className="linguagem hidden">
+              <img src={mysql} alt="MySQL" />
+              <div className="text_linguagem">
+                <h3>MySQL</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={oraclesql} alt="Oracle SQL" />
+              <div className="text_linguagem">
+                <h3>Oracle SQL</h3>
+              </div>
+            </div>
+
+            <div className="linguagem hidden">
+              <img src={firebase} alt="Firebase" />
+              <div className="text_linguagem">
+                <h3>Firebase</h3>
+              </div>
+            </div>
+          </div>
+
         </section>
     </>
   )

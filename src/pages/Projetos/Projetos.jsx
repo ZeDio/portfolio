@@ -9,6 +9,8 @@ import dpjd from '../../assets/main/projetos/dp.jd.png'
 import mrjd from '../../assets/main/projetos/mr.jd.png'
 import gsjd from '../../assets/main/projetos/gs.jd.png'
 import gqrjd from '../../assets/main/projetos/gqr.jd.png'
+import dindin from '../../assets/main/projetos/dindin.png'
+import microondas from '../../assets/main/projetos/microondas.png'
 
 function Projetos() {
 
@@ -66,11 +68,22 @@ function Projetos() {
       title: "Gerador QR",
       site: "https://pl-jd.vercel.app/Gerador_QR/index.html",
       code: "https://github.com/ZeDio/Praticando/"
+    },
+    {
+      image: dindin,
+      title: "Maquina Virtual em Nuvem",
+      code: "https://github.com/ZeDio/2TDSA/tree/main/DT%20-%20DevOps%20Tools%20e%20Cloud%20Computing/Aula%202%20-%20CP"
+    },
+    {
+      image: microondas,
+      title: "Microondas com Arduino",
+      site: "https://wokwi.com/projects/458923641113059329",
+      code: "https://github.com/ZeDio/2TDSA/tree/main/AI%20-%20Disruptive%20Architectures%20IoT%20IOB%20e%20Generative%20IA/Aula%205%20-%20CP"
     }
   ]
 
   return (
-    <section className="section-4" id="projetos">
+    <section className="section-5" id="projetos">
       <h2>Projetos</h2>
 
       <div className="projetos hidden">

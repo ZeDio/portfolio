@@ -1,6 +1,7 @@
 /* Cores principais */
 :root{
   --preto: #19191B;
+  --preto_claro: #494949;
   --cinza: rgba(255, 255, 255, 0.651);
   --branco: white;
 }
@@ -130,6 +131,12 @@ p{
     header button{
         display: none;
     }
+    .contato{
+        display: block;
+        margin-top: -10px;
+        margin-left: 80px;
+        margin-bottom: 60px;
+    }
 
     .section-1{
         padding: 0px;
@@ -161,7 +168,7 @@ p{
     .projeto {
         margin: 30px 0px;
     }
-    .section-4 button {
+    .section-5 button {
         width: 130px;
     }
 

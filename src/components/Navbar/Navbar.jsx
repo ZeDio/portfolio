@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import logoLight from '../../assets/logo/logo JD.png'
-import logoDark from '../../assets/logo/logo JD black.png'
+import logoLight from '../../assets/logo/logo JD.svg'
+import logoDark from '../../assets/logo/logo JD black.svg'
 
 function Navbar() {
   const [theme, setTheme] = useState('dark')
