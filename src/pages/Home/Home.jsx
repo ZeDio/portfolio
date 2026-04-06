@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import eu from '../../assets/main/eu.png'
 import frontend from '../../assets/main/skills/front_end.png'
 import backend from '../../assets/main/skills/back_end.png'
@@ -76,9 +77,9 @@ function Home() {
           <a href="#skills">
             <button>Outras Habilidades</button>
           </a>
-          <a className="contato" href="/contato">
+          <Link to="/contato" className="contato">
             <button>Entre em contato</button>
-          </a>
+          </Link>
         </div>
 
         <img src={eu} alt="Foto minha" />
