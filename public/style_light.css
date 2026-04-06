@@ -447,7 +447,7 @@ footer .logoFooter{
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(/src/assets/footer/waveBlack.png);
+    background: url(/waveBlack.png);
     background-size: 1000px 100px;
     filter: blur(4px);
 }
