@@ -359,16 +359,16 @@ header button:hover{
 .section-6 img{
     width: 300px;
 }
-form{
+form, .form{
     max-width: 650px;
-    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 form h2{
-    margin-bottom: 15px;
+    margin: 0px;
+    text-wrap: inherit;
 }
 label{
     display: flex;
@@ -413,6 +413,57 @@ label{
     background-color: var(--branco);
     color: var(--preto);
     transition: 0.5s ease-in-out;
+}
+.botao_wtts_email{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+    transition: 0.5s ease-in-out;
+}
+.botao_wtts_email_toggle{
+    width: 260px;
+    height: 50px;
+    border: 2px solid var(--branco);
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+.botao_wtts_email_toggle-circle{
+    width: calc(50% - 5px);
+    height: calc(100% - 10px);
+    border-radius: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transform: translateX(0);
+    transition: 0.5s ease-in-out, background 0.3s ease;
+    background: linear-gradient(135deg, var(--branco), var(--preto));
+}
+.botao_wtts_email_toggle.left .botao_wtts_email_toggle-circle{
+    transform: translateX(0);
+}
+.botao_wtts_email_toggle.right .botao_wtts_email_toggle-circle{
+    transform: translateX(100%);
+}
+.botao_wtts_email_toggle-text{
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+}
+.form-container {
+    position: relative;
+}
+.form-content {
+    animation: fadeSlide 0.4s ease;
 }
 
 .section-7{
@@ -556,6 +607,38 @@ footer .logoFooter{
     animation-delay: -5s;
 }
 
+/* configuração das bolhas de blur no fundo da pagina */
+.blur-fundo-1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--branco);
+    filter: blur(80px);
+    right: 100px;
+    bottom: 100px;
+}
+.blur-fundo-2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--branco);
+    filter: blur(80px);
+    left: 100px;
+    top: 100px;
+}
+
+/* Animação De wtts e email trocando */
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/* Animação das ondas do Footer */
 @keyframes wave {
     0%{
         background-position-x: 0;

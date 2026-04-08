@@ -85,7 +85,7 @@ function Projetos() {
   return (
     <section className="section-5" id="projetos">
       <h2>Projetos</h2>
-
+      <div className="blur-fundo-1"></div>
       <div className="projetos hidden">
         {projetos.map((proj, index) => (
           <ProjectCard

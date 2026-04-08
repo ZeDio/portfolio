@@ -149,6 +149,7 @@ function Home() {
           <h2>Tecnologias e Linguagens Utilizadas</h2>
 
           <h3 className="titulo_categoria">Linguagens</h3>
+          <div className="blur-fundo-2"></div>
           <div className="linguagens hidden">
             <div className="linguagem hidden">
               <img src={java} alt="Java" />
@@ -187,6 +188,7 @@ function Home() {
           </div>
 
           <h3 className="titulo_categoria">Front-end</h3>
+          <div className="blur-fundo-1"></div>
           <div className="linguagens hidden">
             <div className="linguagem hidden">
               <img src={html} alt="HTML" />
