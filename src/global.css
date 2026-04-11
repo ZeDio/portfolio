@@ -168,7 +168,7 @@ p{
     }
 
     footer{
-        left: 0px;
+        right: 0px;
         flex-direction: column;
     }
     footer h4{

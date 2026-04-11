@@ -327,7 +327,7 @@ header button:hover{
     inset: 0;
     background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
     opacity: 0;
@@ -338,16 +338,16 @@ header button:hover{
     visibility: visible;
 }
 .buttons {
-    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
 }
 .section-5 button {
     background-color: var(--preto);
     color: var(--branco);
     font-size: 1rem;
     font-weight: 700;
-    width: 170px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    width: 130px;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -579,6 +579,7 @@ footer{
     justify-content: space-around;
     flex-wrap: wrap;
     color: var(--preto);
+    right: 7px;
 }
 footer .logoFooter{
     width: 100px;
