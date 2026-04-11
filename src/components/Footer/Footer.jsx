@@ -7,6 +7,9 @@ function Footer() {
   const [theme, setTheme] = useState('dark')
 
   useEffect(() => {
+    // Pega data atual
+    const year = new Date().getFullYear()
+
     // pega tema salvo ao carregar
     const savedTheme = localStorage.getItem('theme')
     if (savedTheme) setTheme(savedTheme)
@@ -37,7 +40,7 @@ function Footer() {
         />
       </div>
 
-      <h4>©2025 José Diogo, Direitos Reservados</h4>
+      <h4>©{new Date().getFullYear()} José Diogo, Direitos Reservados</h4>
     </footer>
   )
 }
