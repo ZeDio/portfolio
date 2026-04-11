@@ -39,16 +39,30 @@ nav{
     flex-wrap: wrap;
     justify-content: center;
 }
-nav a{
+nav a {
+    position: relative;
     color: var(--cinza);
     margin: 0rem 1.3rem;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: color 0.3s ease;
 }
-nav a:hover{
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background: var(--branco);
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+nav a:hover {
     color: var(--branco);
-    margin: 0rem 1.4rem;
-    transition: 0.5s ease-in-out;
+}
+nav a:hover::after {
+    transform: translateX(-50%) scaleX(1);
 }
 header button{
     border: 1px solid var(--branco);
@@ -421,10 +435,10 @@ label{
     transition: 0.5s ease-in-out;
 }
 .botao_wtts_email_toggle{
-    width: 260px;
-    height: 50px;
+    width: 200px;
+    height: 40px;
     border: 2px solid var(--branco);
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     cursor: pointer;
     display: flex;
@@ -437,7 +451,7 @@ label{
 .botao_wtts_email_toggle-circle{
     width: calc(50% - 5px);
     height: calc(100% - 10px);
-    border-radius: 20px;
+    border-radius: 7px;
     position: absolute;
     top: 5px;
     left: 5px;
@@ -565,7 +579,6 @@ footer{
     justify-content: space-around;
     flex-wrap: wrap;
     color: var(--preto);
-    left: -8px;
 }
 footer .logoFooter{
     width: 100px;
@@ -626,6 +639,16 @@ footer .logoFooter{
     left: 100px;
     top: 100px;
 }
+
+
+/* Scroll */
+::-webkit-scrollbar-thumb {
+    background: var(--cinza);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--branco);
+}
+
 
 /* Animação De wtts e email trocando */
 @keyframes fadeSlide {

@@ -2,10 +2,25 @@
 :root{
   --preto: #19191B;
   --preto_claro: #494949;
-  --cinza: rgba(255, 255, 255, 0.651);
-  --branco: white;
+  --cinza: #ffffffa6;
+  --branco: #ffffff;
 }
 
+
+/* Scroll */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+html{
+    scroll-behavior: smooth;
+}
 
 /* Animação ao entrar */
 .hidden {
@@ -103,6 +118,7 @@ p{
     body, html{
         display: flex;
         flex-direction: column;
+        margin: 0px;
     }
     nav a{
         margin: 0rem 1rem;
@@ -152,7 +168,7 @@ p{
     }
 
     footer{
-        left: -6px;
+        left: 0px;
         flex-direction: column;
     }
     footer h4{

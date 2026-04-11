@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import sol from '../../assets/Tema/Sol.png'
-import lua from '../../assets/Tema/Lua.png'
+import sol from '../../assets/Tema/dark.png'
+import lua from '../../assets/Tema/light.png'
 
 function Tema() {
   const [dark, setDark] = useState(true)
