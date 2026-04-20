@@ -101,63 +101,63 @@ function Projetos() {
   
     const [selectedService, setSelectedService] = useState(null)
     const servicos = [
-    {
-      image: s22ultralPreto_TrocaTampa_1,
-      image_2: s22ultralPreto_TrocaTampa_2,
-      title: "Samsung S22 Ultra",
-      description: "Tampa Traseira Trincada",
-      contact: "/contato"
-    },
-    {
-      image: redmi8_trocaDeBateria,
-      image_2: redmi8_trocaDeBateria,
-      title: "Xiaomi Redmi Note 8",
-      description: "Bateria viciada",
-      contact: "/contato"
-    },
-    {
-      image: s22_trocaDaBateria,
-      image_2: s22_trocaDaBateria,
-      title: "Samsung S22",
-      description: "Bateria inchada",
-      contact: "/contato"
-    },
-    {
-      image: iphone11pro_trocaDaTela_1,
-      image_2: iphone11pro_trocaDaTela_2,
-      title: "Iphone 11 Pro",
-      description: "Troca da tela",
-      contact: "/contato"
-    },
-    {
-      image: a14_trocaDaBateria,
-      image_2: a14_trocaDaBateria,
-      title: "Samsung A14",
-      description: "Troca da bateria viciada",
-      contact: "/contato"
-    },
-    {
-      image: a12_trocaDaPlacaDeCarca_E_DaTela_1,
-      image_2: a12_trocaDaPlacaDeCarca_E_DaTela_2,
-      title: "Samsung A12",
-      description: "Troca da sub-placa de carga e da tela",
-      contact: "/contato"
-    },
-    {
-      image: redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume,
-      image_2: redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume,
-      title: "Xiaomi Redmi Note 7",
-      description: "Troca da bateria, camera frontal, tampa traseira e dos botões de volume",
-      contact: "/contato"
-    },
-    {
-      image: pocoM6Pro_trocaDaSubPlacaDeCarga_1,
-      image_2: pocoM6Pro_trocaDaSubPlacaDeCarga_2,
-      title: "Xiaomi Poco M6 Pro",
-      description: "Troca da sub-placa de carga",
-      contact: "/contato"
-    },
-  ]
+      {
+        image: s22ultralPreto_TrocaTampa_1,
+        image_2: s22ultralPreto_TrocaTampa_2,
+        title: "Samsung S22 Ultra",
+        description: "Substituição da tampa traseira danificada, restaurando a estética original e garantindo melhor vedação e proteção do aparelho.",
+        contact: "/contato"
+      },
+      {
+        image: redmi8_trocaDeBateria,
+        image_2: redmi8_trocaDeBateria,
+        title: "Xiaomi Redmi Note 8",
+        description: "Troca da bateria desgastada, resolvendo problemas de autonomia e devolvendo maior duração de uso ao dispositivo.",
+        contact: "/contato"
+      },
+      {
+        image: s22_trocaDaBateria,
+        image_2: s22_trocaDaBateria,
+        title: "Samsung S22",
+        description: "Substituição de bateria inchada, eliminando riscos e garantindo o funcionamento seguro e estável do aparelho.",
+        contact: "/contato"
+      },
+      {
+        image: iphone11pro_trocaDaTela_1,
+        image_2: iphone11pro_trocaDaTela_2,
+        title: "Iphone 11 Pro",
+        description: "Troca completa da tela danificada, restaurando a qualidade de imagem e a sensibilidade ao toque.",
+        contact: "/contato"
+      },
+      {
+        image: a14_trocaDaBateria,
+        image_2: a14_trocaDaBateria,
+        title: "Samsung A14",
+        description: "Substituição de bateria com baixo desempenho, melhorando a autonomia e a confiabilidade do uso diário.",
+        contact: "/contato"
+      },
+      {
+        image: a12_trocaDaPlacaDeCarca_E_DaTela_1,
+        image_2: a12_trocaDaPlacaDeCarca_E_DaTela_2,
+        title: "Samsung A12",
+        description: "Troca da subplaca de carga e da tela, solucionando falhas de carregamento e problemas visuais do dispositivo.",
+        contact: "/contato"
+      },
+      {
+        image: redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume,
+        image_2: redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume,
+        title: "Xiaomi Redmi Note 7",
+        description: "Manutenção completa com substituição de bateria, câmera frontal, tampa traseira e botões de volume, restaurando o funcionamento geral do aparelho.",
+        contact: "/contato"
+      },
+      {
+        image: pocoM6Pro_trocaDaSubPlacaDeCarga_1,
+        image_2: pocoM6Pro_trocaDaSubPlacaDeCarga_2,
+        title: "Xiaomi Poco M6 Pro",
+        description: "Troca da subplaca de carga, corrigindo falhas de conexão e garantindo carregamento eficiente.",
+        contact: "/contato"
+      },
+    ]
 
   const [closing, setClosing] = useState(false)
     const handleClose = () => {
@@ -191,6 +191,7 @@ function Projetos() {
         <div className="blur-fundo-2"></div>
       </section>
       <section className="section-5" id="servicos">
+        <div className="blur-fundo-1"></div>
         <h2>Serviços</h2>
 
         <div className="projetos hidden">
@@ -204,6 +205,7 @@ function Projetos() {
             />
           ))}
         </div>
+        <div className="blur-fundo-2"></div>
       </section>
 
       {selectedService && (

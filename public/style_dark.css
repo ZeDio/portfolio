@@ -379,6 +379,7 @@ header button:hover{
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     padding: 2rem;
+    width: 350px;
     border-radius: 16px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
     animation: fadeIn 0.3s ease;
@@ -634,7 +635,6 @@ footer{
     justify-content: space-around;
     flex-wrap: wrap;
     color: var(--preto);
-
 }
 footer .logoFooter{
     width: 100px;
