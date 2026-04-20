@@ -120,8 +120,11 @@ p{
         flex-direction: column;
         margin: 0px;
     }
+    nav{
+        width: 200px;
+    }
     nav a{
-        margin: 0rem 1rem;
+        margin: 0.2rem 1rem;
     }
     header button{
         display: none;
@@ -165,6 +168,9 @@ p{
     }
     .section-5 button {
         width: 130px;
+    }
+    .modal{
+        width: 320px;
     }
 
     footer{

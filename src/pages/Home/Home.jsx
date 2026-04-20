@@ -93,6 +93,11 @@ function Home() {
                 <p>Hoje, meu foco principal é o front-end, área pela qual sou realmente apaixonado. Ainda assim, venho explorando o back-end aos poucos, percebendo como ele amplia minhas possibilidades na criação de sistemas e ferramentas úteis para resolver problemas reais.</p>
                 <p>No meu TCC do ensino médio, desenvolvemos a CALIMIND — uma experiência incrível onde pude colocar minhas habilidades de front-end em prática, além de contribuir com o básico no back-end. Porém, o maior desafio (e também o mais enriquecedor) foi liderar a equipe, coordenando o projeto e garantindo que tudo seguisse conforme o planejado.</p>
             </div>
+            <div className='texts'>
+                <p>Além do desenvolvimento, também comecei a me interessar pela parte prática da tecnologia, explorando hardware e manutenção por conta própria. Em 2023, montei meu primeiro computador sozinho, o que me permitiu entender melhor sobre componentes, compatibilidade e organização.</p>
+                <p>No ano seguinte, em 2024, dei um passo além e comecei a trabalhar com manutenção de celulares. Meu primeiro conserto foi em um Samsung S10 Plus, onde realizei a troca da tampa traseira e do botão de power, experiência que marcou o início dessa nova área de atuação.</p>
+                <p>Desde então, venho evoluindo tanto no desenvolvimento de software quanto na parte de hardware, buscando sempre ampliar meus conhecimentos e me tornar um profissional mais completo, capaz de atuar em diferentes frentes da tecnologia.</p>
+            </div>
             <div className="blur-fundo-2"></div>
         </section>
 
