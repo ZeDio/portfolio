@@ -14,6 +14,7 @@ import gsjd from '../../assets/main/projetos/gs.jd.png'
 import gqrjd from '../../assets/main/projetos/gqr.jd.png'
 import dindin from '../../assets/main/projetos/dindin.png'
 import microondas from '../../assets/main/projetos/microondas.png'
+import olx_achadinhos from '../../assets/main/projetos/olx_achadinhos.png'
 
 import s22ultralPreto_TrocaTampa_1 from '../../assets/main/servicos/s22ultralPreto_TrocaTampa_1.jpg'
 import s22ultralPreto_TrocaTampa_2 from '../../assets/main/servicos/s22ultralPreto_TrocaTampa_2.jpg'
@@ -27,6 +28,8 @@ import a12_trocaDaPlacaDeCarca_E_DaTela_2 from '../../assets/main/servicos/a12_t
 import redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume from '../../assets/main/servicos/redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume.jpg'
 import pocoM6Pro_trocaDaSubPlacaDeCarga_1 from '../../assets/main/servicos/pocoM6Pro_trocaDaSubPlacaDeCarga_1.jpg'
 import pocoM6Pro_trocaDaSubPlacaDeCarga_2 from '../../assets/main/servicos/pocoM6Pro_trocaDaSubPlacaDeCarga_2.jpg'
+import iphone13_trocaDeTela_1 from '../../assets/main/servicos/iphone13_trocaDeTela_1.jpg'
+import iphone13_trocaDeTela_2 from '../../assets/main/servicos/iphone13_trocaDeTela_2.jpg'
 
 
 function Projetos() {
@@ -96,6 +99,12 @@ function Projetos() {
       title: "Microondas com Arduino",
       site: "https://wokwi.com/projects/458923641113059329",
       code: "https://github.com/ZeDio/2TDSA/tree/main/AI%20-%20Disruptive%20Architectures%20IoT%20IOB%20e%20Generative%20IA/Aula%205%20-%20CP"
+    },
+    {
+      image: olx_achadinhos,
+      title: "Olx Achadinhos",
+      site: "https://olx-achadinhos.vercel.app/",
+      code: "https://github.com/ZeDio/Olx_Achadinhos"
     }
   ]
   
@@ -105,58 +114,65 @@ function Projetos() {
         image: s22ultralPreto_TrocaTampa_1,
         image_2: s22ultralPreto_TrocaTampa_2,
         title: "Samsung S22 Ultra",
-        description: "Substituição da tampa traseira danificada, restaurando a estética original e garantindo melhor vedação e proteção do aparelho.",
+        description: "Substituição da tampa traseira danificada devido a trincas, restaurando a aparência original do aparelho, melhorando a vedação e garantindo maior proteção contra poeira e impactos.",
         contact: "/contato"
       },
       {
         image: redmi8_trocaDeBateria,
         image_2: redmi8_trocaDeBateria,
         title: "Xiaomi Redmi Note 8",
-        description: "Troca da bateria desgastada, resolvendo problemas de autonomia e devolvendo maior duração de uso ao dispositivo.",
+        description: "Troca da bateria desgastada que apresentava baixa autonomia, resolvendo problemas de descarga rápida e devolvendo maior duração e estabilidade no uso diário.",
         contact: "/contato"
       },
       {
         image: s22_trocaDaBateria,
         image_2: s22_trocaDaBateria,
         title: "Samsung S22",
-        description: "Substituição de bateria inchada, eliminando riscos e garantindo o funcionamento seguro e estável do aparelho.",
+        description: "Substituição de bateria inchada, eliminando riscos de danos internos e garantindo o funcionamento seguro, estável e confiável do dispositivo.",
         contact: "/contato"
       },
       {
         image: iphone11pro_trocaDaTela_1,
         image_2: iphone11pro_trocaDaTela_2,
         title: "Iphone 11 Pro",
-        description: "Troca completa da tela danificada, restaurando a qualidade de imagem e a sensibilidade ao toque.",
+        description: "Troca completa da tela danificada, corrigindo falhas de imagem e toque, e restaurando a qualidade visual e a sensibilidade original do aparelho.",
         contact: "/contato"
       },
       {
         image: a14_trocaDaBateria,
         image_2: a14_trocaDaBateria,
         title: "Samsung A14",
-        description: "Substituição de bateria com baixo desempenho, melhorando a autonomia e a confiabilidade do uso diário.",
+        description: "Substituição de bateria com desempenho comprometido, melhorando significativamente a autonomia e garantindo maior confiabilidade no uso contínuo.",
         contact: "/contato"
       },
       {
         image: a12_trocaDaPlacaDeCarca_E_DaTela_1,
         image_2: a12_trocaDaPlacaDeCarca_E_DaTela_2,
         title: "Samsung A12",
-        description: "Troca da subplaca de carga e da tela, solucionando falhas de carregamento e problemas visuais do dispositivo.",
+        description: "Troca da subplaca de carga e da tela, solucionando falhas de carregamento e problemas visuais, restaurando o funcionamento completo do aparelho.",
         contact: "/contato"
       },
       {
         image: redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume,
         image_2: redmi7_trocaDaBateria_DaCameraFrontal_DaTampaTraseira_E_DoBotaoDeVolume,
         title: "Xiaomi Redmi Note 7",
-        description: "Manutenção completa com substituição de bateria, câmera frontal, tampa traseira e botões de volume, restaurando o funcionamento geral do aparelho.",
+        description: "Manutenção completa envolvendo substituição de bateria, câmera frontal, tampa traseira e botões de volume, restaurando desempenho, estética e funcionalidade geral do dispositivo.",
         contact: "/contato"
       },
       {
         image: pocoM6Pro_trocaDaSubPlacaDeCarga_1,
         image_2: pocoM6Pro_trocaDaSubPlacaDeCarga_2,
         title: "Xiaomi Poco M6 Pro",
-        description: "Troca da subplaca de carga, corrigindo falhas de conexão e garantindo carregamento eficiente.",
+        description: "Troca da subplaca de carga para corrigir falhas de conexão, garantindo carregamento estável e funcionamento adequado do aparelho.",
         contact: "/contato"
       },
+      {
+        image: iphone13_trocaDeTela_1,
+        image_2: iphone13_trocaDeTela_2,
+        title: "Iphone 13",
+        description: "Substituição da tela devido a falhas de exibição e toque, restaurando a qualidade visual e garantindo uma experiência de uso fluida e responsiva.",
+        contact: "/contato"
+      }
     ]
 
   const [closing, setClosing] = useState(false)
